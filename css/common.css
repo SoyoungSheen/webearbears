@@ -24,7 +24,7 @@
 
 section {
 	max-width: 120rem;
-	height: 400rem;
+	height: 530rem;
 	background-color: greenyellow;
 	margin: 0 auto;
 }
@@ -82,7 +82,6 @@ section {
 	align-content: center;
 	align-items: flex-end;
 	justify-content: space-around;
-	padding-bottom: 30rem;
 }
 
 .on {
@@ -91,8 +90,73 @@ section {
 	background-color: indianred;
 }
 
-footer {
+#button {
+	width: 100%;
+	height: 5rem;
+	background-color: yellow;
+	padding-bottom: 30rem;
+}
+
+#video {
+	width: 100%;
+	height: 60rem;
+	background-color: turquoise;
+	display: flex;
+}
+
+.left-text {
+	width: 45%;
+	height: 60rem;
+	background-color: tomato;
+}
+
+.right-text {
+	width: 55%;
+	height: 60rem;
+	background-color: turquoise;
+	display: flex;
+	flex-direction: column;
+}
+
+.holder {
+	width: 100%;
+	height: 10%;
+	background-color: violet;
+}
+
+.media {
+	width: 100%;
+	height: 90%;
+	background-color: yellow;
+}
+
+#wbb-animation {
 	width: 100%;
 	height: 30rem;
+	background-color: darkorange;
+	padding-bottom: 10rem;
+}
+
+#text-explain {
+	width: 70%;
+	height: 25rem;
+	background-color: darkorchid;
+	padding-bottom: 20rem;
+}
+footer {
+	width: 100%;
+	height: 100rem;
 	background-color: crimson;
+}
+
+#ad {
+	width: 100%;
+	height: 80%;
+	background-color: darkseagreen;
+}
+
+#end {
+	width: 100%;
+	height: 20%;
+	background-color: hotpink;
 }
