@@ -14,33 +14,63 @@
 #wrap-nav {
 	width: 70rem;
 	height: 10rem;
-	background-color: aquamarine;
 	display: flex;
 	align-content: flex-end;
 	justify-content: flex-end;
 }
 
 #nav {
+	width: 35rem;
+	height: 5rem;
+	position: fixed;
+	margin-top: 2rem;
+	border: 3px solid black;
+	background-color: white;
+}
+
+.nav-list {
 	width: 30rem;
 	height: 5rem;
-	background-color: chartreuse;
+	display: flex;
+	align-content: space-around;
+	justify-content: space-around;
+	font-size: 1.5rem;
+	font-family: "Fredoka One", cursive;
+}
 
-	margin-top: 2rem;
-	border: 5px solid black;
+#shop {
+	width: 14.5rem;
+	height: 5rem;
+	position: fixed;
+	background-color: blue;
+	border: 3px solid black;
+}
+
+#wrap-all {
+	margin: 0 auto;
+	width: 120rem;
+	height: 10rem;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+#wrap-shop {
+	width: 15rem;
+	height: 8rem;
+	display: flex;
 }
 
 .logo {
 	width: 25rem;
 	height: 20rem;
-	background-color: royalblue;
 
-	z-index: 1;
+	position: fixed;
 }
 
 #wrap-logo {
 	width: 25rem;
 	height: 20rem;
-	background-color: rosybrown;
 }
 .logo img {
 	width: 25rem;

@@ -1,20 +1,11 @@
-section {
+#section {
 	max-width: 100%;
 	height: 530rem;
-	background-color: greenyellow;
+	background-color: #ffef6e;
+	transition: background-color 0.8s;
 	margin: 0 auto;
 }
 
-.bg-color {
-	display: flex;
-	overflow: hidden;
-	width: 100vw;
-	height: auto;
-	max-width: 100%;
-	margin-bottom: 0;
-	align-items: center;
-	border: 1px #000;
-}
 .text-wbb {
 	width: 120rem;
 	height: 52rem;
