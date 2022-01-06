@@ -4,145 +4,44 @@
 	height: 10rem;
 	background-color: yellow;
 	display: flex;
-	justify-content: space-around;
+}
+
+#wrap-nav {
+	width: 40rem;
+	height: 10rem;
+	background-color: aquamarine;
+	display: flex;
+	align-content: flex-end;
+	justify-content: flex-end;
 }
 
 #nav {
-	width: 50rem;
+	width: 30rem;
 	height: 5rem;
 	background-color: chartreuse;
+
+	margin-top: 2rem;
+	border: 5px solid black;
 }
 
 .logo {
-	display: fixed;
+	width: 25rem;
+	height: 30rem;
+	background-color: royalblue;
+
 	z-index: 1;
+}
+
+#wrap-logo {
+	width: 40rem;
+	height: 40rem;
+	background-color: rosybrown;
 }
 .logo img {
 	width: 25rem;
 	height: auto;
 }
 
-section {
-	max-width: 120rem;
-	height: 530rem;
-	background-color: greenyellow;
-	margin: 0 auto;
-}
-.text-wbb {
-	width: 120rem;
-	height: 52rem;
-	background-color: hotpink;
-}
-
-#box {
-	width: 100rem;
-	height: 50rem;
-	background-color: indigo;
-	padding-bottom: 30rem;
-}
-
-.svg1 {
-	width: 50rem;
-	height: 50rem;
-	background-color: khaki;
-}
-
-#illustration {
-	width: 120rem;
-	height: 30rem;
-	background-color: green;
-	padding-bottom: 10rem;
-}
-
-#wbb {
-	width: 120rem;
-	height: 40rem;
-	background-color: dodgerblue;
-	padding-bottom: 20rem;
-	display: flex;
-}
-
-.explain-wbb {
-	width: 70rem;
-	height: 40rem;
-	background-color: firebrick;
-}
-
-.wbb-svg {
-	width: 50rem;
-	height: 40rem;
-	background-color: gold;
-}
-
-#sale {
-	width: 100%;
-	height: 30rem;
-	background-color: hotpink;
-	display: flex;
-	align-content: center;
-	align-items: flex-end;
-	justify-content: space-around;
-}
-
-.on {
-	width: 23%;
-	height: 28rem;
-	background-color: indianred;
-}
-
-#button {
-	width: 100%;
-	height: 5rem;
-	background-color: yellow;
-	padding-bottom: 30rem;
-}
-
-#video {
-	width: 100%;
-	height: 60rem;
-	background-color: turquoise;
-	display: flex;
-}
-
-.left-text {
-	width: 45%;
-	height: 60rem;
-	background-color: tomato;
-}
-
-.right-text {
-	width: 55%;
-	height: 60rem;
-	background-color: turquoise;
-	display: flex;
-	flex-direction: column;
-}
-
-.holder {
-	width: 100%;
-	height: 10%;
-	background-color: violet;
-}
-
-.media {
-	width: 100%;
-	height: 90%;
-	background-color: yellow;
-}
-
-#wbb-animation {
-	width: 100%;
-	height: 30rem;
-	background-color: darkorange;
-	padding-bottom: 10rem;
-}
-
-#text-explain {
-	width: 70%;
-	height: 25rem;
-	background-color: darkorchid;
-	padding-bottom: 20rem;
-}
 footer {
 	width: 100%;
 	height: 100rem;
