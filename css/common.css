@@ -1,8 +1,13 @@
 #header {
+	max-width: 100%;
+	height: 10rem;
+	background-color: #ffef6e;
+}
+#beginning {
 	max-width: 120rem;
 	margin: 0 auto;
 	height: 10rem;
-	background-color: yellow;
+
 	display: flex;
 }
 
@@ -26,15 +31,15 @@
 
 .logo {
 	width: 25rem;
-	height: 30rem;
+	height: 20rem;
 	background-color: royalblue;
 
 	z-index: 1;
 }
 
 #wrap-logo {
-	width: 30rem;
-	height: 30rem;
+	width: 25rem;
+	height: 20rem;
 	background-color: rosybrown;
 }
 .logo img {
