@@ -6,11 +6,24 @@
 	margin: 0 auto;
 }
 
-.text-wbb {
+.text-we {
 	width: 120rem;
-	height: 52rem;
-	background-color: hotpink;
+	height: 60rem;
+	background-color: aqua;
 	margin: 0 auto;
+}
+
+.text-bb {
+	width: 120rem;
+	height: 30rem;
+}
+
+.text-we img {
+	width: 50rem;
+}
+
+.text-bb img {
+	width: 120rem;
 }
 
 #box {
@@ -19,12 +32,35 @@
 	background-color: indigo;
 	padding-bottom: 30rem;
 	margin: 0 auto;
+	display: flex;
 }
 
 .svg1 {
 	width: 50rem;
-	height: 50rem;
+	height: 60rem;
 	background-color: khaki;
+}
+
+.next_svg1 {
+	width: 60rem;
+	height: 60rem;
+	background-color: coral;
+	font-family: "Fredoka One", cursive;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.svg_btm {
+	width: 60rem;
+	height: 25rem;
+}
+
+.svg.btm img {
+	width: 50rem;
 }
 
 #illustration {
@@ -33,6 +69,9 @@
 	background-color: green;
 	padding-bottom: 10rem;
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #wbb {
@@ -48,6 +87,11 @@
 	width: 70rem;
 	height: 40rem;
 	background-color: firebrick;
+}
+
+.explain-text {
+	font-family: "Fredoka One", cursive;
+	font-size: 2rem;
 }
 
 .wbb-svg {
