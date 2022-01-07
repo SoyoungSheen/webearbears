@@ -76,7 +76,7 @@
 
 #wbb {
 	width: 120rem;
-	height: 40rem;
+	height: 25rem;
 	background-color: dodgerblue;
 	padding-bottom: 20rem;
 	display: flex;
@@ -102,12 +102,12 @@
 
 #sale {
 	width: 120rem;
-	height: 30rem;
+	height: 50rem;
 	background-color: hotpink;
 	display: flex;
 	align-content: center;
-	align-items: flex-end;
-	justify-content: space-around;
+	align-items: center;
+	justify-content: space-between;
 	margin: 0 auto;
 }
 
