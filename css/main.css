@@ -9,17 +9,32 @@
 .text-we {
 	width: 120rem;
 	height: 60rem;
-	background-color: aqua;
+
 	margin: 0 auto;
+	position: relative;
+}
+
+.text-we img {
+	width: 50rem;
+}
+
+.svg0 {
+	width: 30rem;
+	height: 30rem;
+	overflow: hidden;
+	position: absolute;
+	left: 800px;
+	bottom: 440px;
+	z-index: 1;
+}
+
+.svg0 img {
+	width: 100%;
 }
 
 .text-bb {
 	width: 120rem;
 	height: 30rem;
-}
-
-.text-we img {
-	width: 50rem;
 }
 
 .text-bb img {
@@ -36,9 +51,12 @@
 }
 
 .svg1 {
-	width: 50rem;
+	width: 40rem;
 	height: 60rem;
 	background-color: khaki;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .next_svg1 {
@@ -85,7 +103,7 @@
 
 .explain-wbb {
 	width: 70rem;
-	height: 40rem;
+	height: 50rem;
 	background-color: firebrick;
 }
 
@@ -98,6 +116,13 @@
 	width: 50rem;
 	height: 40rem;
 	background-color: gold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wbb-svg img {
+	width: 50%;
 }
 
 #sale {
