@@ -27,6 +27,7 @@
 	border: 3px solid black;
 	background-color: white;
 	z-index: 600;
+	box-shadow: 5px 4px 0 0 #ccc;
 }
 
 .nav-list {
@@ -46,6 +47,7 @@
 	background-color: white;
 	border: 3px solid black;
 	z-index: 600;
+	box-shadow: 5px 4px 0 0 #ccc;
 }
 
 #wrap-all {
