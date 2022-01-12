@@ -358,8 +358,9 @@
 }
 
 .store-text {
-	width: 35%;
+	width: 50%;
 	height: 20rem;
+
 	background-color: cornflowerblue;
 	color: white;
 }
