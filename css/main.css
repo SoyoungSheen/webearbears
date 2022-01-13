@@ -427,10 +427,13 @@
 
 #text-explain {
 	width: 100%;
-	height: 128rem;
+	height: 150rem;
 	margin: 0 auto;
-	background-image: url("img/card.png");
+	background-image: url("../img/card.png");
+
+	background-size: 170rem 100rem;
 	background-repeat: no-repeat;
+	background-position: center;
 	padding-bottom: 20rem;
 }
 
