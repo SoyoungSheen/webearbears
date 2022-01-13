@@ -27,7 +27,7 @@
 	border: 3px solid black;
 	background-color: white;
 	z-index: 600;
-	box-shadow: 5px 4px 0 0 #ccc;
+	box-shadow: 0 4px 0 0 #ccc;
 }
 
 .nav-list {
@@ -41,23 +41,43 @@
 }
 
 #shop {
-	width: 14.5rem;
-	height: 5rem;
-	position: fixed;
+	width: 10rem;
+	height: 4rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
 	background-color: white;
 	border: 3px solid black;
-	z-index: 600;
+
 	box-shadow: 5px 4px 0 0 #ccc;
+}
+
+.icon-shop {
+}
+
+#wrap-shop {
+	position: relative;
+	top: 7px;
+	right: 5px;
+	width: 10rem;
+	height: 1rem;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
 
 #wrap-all {
 	margin: 0 auto;
 	width: 120rem;
 	height: 10rem;
-
+	position: fixed;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
+	z-index: 600;
 }
 #wrap-shop {
 	width: 15rem;
@@ -81,20 +101,28 @@
 	height: auto;
 }
 
-footer {
+#theend {
 	width: 100%;
-	height: 100rem;
-	background-color: crimson;
+	height: 20rem;
+	background-color: #ff3892;
 }
 
-#ad {
-	width: 100%;
-	height: 80%;
-	background-color: darkseagreen;
+.social {
+	width: 20rem;
+	height: 10rem;
+	background-color: yellowgreen;
+	display: flex;
+	align-content: space-around;
+	align-items: stretch;
+	justify-content: space-around;
+}
+.social img {
+	width: 5rem;
+	height: 5rem;
 }
 
-#end {
-	width: 100%;
-	height: 20%;
-	background-color: hotpink;
+.reference {
+	width: 20rem;
+	height: 10rem;
+	background-color: violet;
 }
