@@ -13,7 +13,7 @@ $(function () {
       $(".scroll").css("background", "#3498db").css("transition", "0.5s");
     }
     else if ($(this).scrollTop() >= 2000 && $(this).scrollTop() <= 2500) {
-      $(".scroll").css("background", "#2ecc71").css("transition", "0.5s");
+      $(".scroll").css("background", "#FF3892").css("transition", "0.5s");
     }
   });
 });
