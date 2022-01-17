@@ -138,3 +138,33 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+.rotating-bear {
+	position: fixed;
+	left: auto;
+	top: auto;
+	right: 20px;
+	bottom: 0;
+	z-index: 996;
+	width: 200px;
+	height: 200px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 0;
+}
+
+.svg-rotating-bear {
+	position: fixed;
+	left: auto;
+	top: auto;
+	right: 20px;
+	bottom: 0;
+	z-index: 996;
+	width: 200px;
+	height: 200px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 0;
+}
