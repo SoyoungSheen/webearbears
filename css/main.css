@@ -88,7 +88,7 @@
 #box {
 	width: 120rem;
 	height: 50rem;
-	background-color: indigo;
+
 	padding-bottom: 30rem;
 
 	display: flex;
@@ -97,7 +97,7 @@
 .svg1 {
 	width: 40rem;
 	height: 60rem;
-	background-color: khaki;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -106,7 +106,7 @@
 .next_svg1 {
 	width: 60rem;
 	height: 60rem;
-	background-color: coral;
+
 	font-family: "Fredoka One", cursive;
 	font-size: 2rem;
 	display: flex;
@@ -131,7 +131,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: cadetblue;
+
 	margin: 0 auto;
 }
 
@@ -146,7 +146,7 @@
 #wbb {
 	width: 120rem;
 	height: 25rem;
-	background-color: dodgerblue;
+
 	padding-bottom: 20rem;
 	display: flex;
 }
@@ -163,7 +163,6 @@
 .explain-wbb {
 	width: 70rem;
 	height: 50rem;
-	background-color: firebrick;
 }
 
 .explain-text {
@@ -174,7 +173,7 @@
 .wbb-svg {
 	width: 50rem;
 	height: 40rem;
-	background-color: gold;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -187,7 +186,7 @@
 #sale {
 	width: 120rem;
 	height: 50rem;
-	background-color: hotpink;
+
 	display: flex;
 	align-content: center;
 	align-items: center;
@@ -287,7 +286,7 @@
 .left-text {
 	width: 30%;
 	height: 90rem;
-	background-color: tomato;
+
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
@@ -314,21 +313,37 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: background 0.75s ease-out;
+}
+
+.btn1:hover {
+	background-color: #1d39c0;
+	color: aliceblue;
 }
 
 .right-text {
 	width: 60%;
 	height: 63rem;
-	background-color: turquoise;
+
 	display: flex;
 	flex-direction: column;
 	margin-left: 20rem;
 }
 
+.remote {
+	width: 32rem;
+	height: 30rem;
+
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	top: 100px;
+}
+
 .holder {
 	width: 100%;
 	height: 10%;
-	background-color: violet;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
